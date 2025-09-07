@@ -61,8 +61,8 @@ public class Mobil {
     void info() {
         System.out.println("==Informasi Mobil==");
         System.out.println("Merk : " + getMerk());
-        System.out.println("Merk : " + getModel());
-        System.out.println("Merk : " + getTahun());
-        System.out.println("Merk : " + getWarna());
+        System.out.println("Model : " + getModel());
+        System.out.println("Tahun : " + getTahun());
+        System.out.println("Warna : " + getWarna());
     }
 }
