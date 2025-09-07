@@ -1,0 +1,49 @@
+cd C:\Users\ASUS\Documents\NetBeansProjects\PraktikumPBO3; "JAVA_HOME=C:\\Program Files\\Java\\jdk-22" cmd /c "\"C:\\Program Files\\NetBeans-22\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Java\\jdk-22\\bin\\java.exe\" -Dexec.mainClass=praktikum3.Main -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-22\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec"
+Scanning for projects...
+
+--------------------< com.mycompany:PraktikumPBO3 >---------------------
+Building PraktikumPBO3 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.3.1:resources (default-resources) @ PraktikumPBO3 ---
+skip non existing resourceDirectory C:\Users\ASUS\Documents\NetBeansProjects\PraktikumPBO3\src\main\resources
+
+--- compiler:3.11.0:compile (default-compile) @ PraktikumPBO3 ---
+Changes detected - recompiling the module! :source
+Compiling 4 source files with javac [debug target 22] to target\classes
+
+--- exec:3.1.0:exec (default-cli) @ PraktikumPBO3 ---
+==Informasi Mobil==
+Merk : Toyota
+Merk : Avanza
+Merk : 2019
+Merk : Belum di-set
+Mesin mobil Toyota menyala
+
+==Informasi Mobil==
+Merk : Honda
+Merk : Civic
+Merk : 2020
+Merk : Belum di-set
+Mesin mobil Honda menyala
+
+Warna mobil Toyota diubah menjadi: Merah
+Warna mobil Honda diubah menjadi: Hitam
+==Informasi Mobil==
+Merk : Toyota
+Merk : Avanza
+Merk : 2019
+Merk : Merah
+
+==Informasi Mobil==
+Merk : Honda
+Merk : Civic
+Merk : 2020
+Merk : Hitam
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  2.109 s
+Finished at: 2025-09-07T14:51:33+07:00
+------------------------------------------------------------------------
