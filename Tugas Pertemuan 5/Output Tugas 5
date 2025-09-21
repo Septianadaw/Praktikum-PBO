@@ -1,0 +1,40 @@
+cd C:\Users\ASUS\Documents\NetBeansProjects\PraktikumPBO_5; "JAVA_HOME=C:\\Program Files\\Java\\jdk-22" cmd /c "\"C:\\Program Files\\NetBeans-22\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Java\\jdk-22\\bin\\java.exe\" -Dexec.mainClass=praktikum5.Main -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-22\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec"
+Scanning for projects...
+
+--------------------< com.mycompany:PraktikumPBO_5 >--------------------
+Building PraktikumPBO_5 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.3.1:resources (default-resources) @ PraktikumPBO_5 ---
+skip non existing resourceDirectory C:\Users\ASUS\Documents\NetBeansProjects\PraktikumPBO_5\src\main\resources
+
+--- compiler:3.11.0:compile (default-compile) @ PraktikumPBO_5 ---
+Nothing to compile - all classes are up to date
+
+--- exec:3.1.0:exec (default-cli) @ PraktikumPBO_5 ---
+====Hewan====
+Nama Hewan: Septiana
+Jenis Hewan: Persia
+Kucing ini suka bermain bola yang kecil.
+Meong... Meong...
+
+Nama Hewan: Dory
+Jenis Hewan: Bullog
+Anjing ini suka berlari-lari.
+Guk... Guk...
+
+====Kendaraan====
+Nama Kendaraan: Civic
+Jumlah Roda: 4
+Jumlah Pintu: 4
+
+Nama Kendaraan: Yamaha
+Jumlah Roda: 2
+Jenis Mesin: 2-Tak
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  1.415 s
+Finished at: 2025-09-21T14:34:44+07:00
+------------------------------------------------------------------------
