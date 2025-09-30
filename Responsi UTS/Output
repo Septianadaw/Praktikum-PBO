@@ -1,0 +1,40 @@
+cd C:\Users\ASUS\Documents\NetBeansProjects\ResponsiUTS; "JAVA_HOME=C:\\Program Files\\Java\\jdk-22" cmd /c "\"C:\\Program Files\\NetBeans-22\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Java\\jdk-22\\bin\\java.exe\" -Dexec.mainClass=SeptianaDiyahAyuWulandari.Main -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-22\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec"
+Scanning for projects...
+
+---------------------< com.mycompany:ResponsiUTS >----------------------
+Building ResponsiUTS 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.3.1:resources (default-resources) @ ResponsiUTS ---
+skip non existing resourceDirectory C:\Users\ASUS\Documents\NetBeansProjects\ResponsiUTS\src\main\resources
+
+--- compiler:3.11.0:compile (default-compile) @ ResponsiUTS ---
+Changes detected - recompiling the module! :source
+Compiling 4 source files with javac [debug target 22] to target\classes
+
+--- exec:3.1.0:exec (default-cli) @ ResponsiUTS ---
+1. Output Produk:
+Nama Produk: Laptop
+Harga: 9000000.0
+Garansi: 2 Tahun
+
+2. Output Pegawai:
+Nama Pegawai: Septiana Daw
+Gaji: 5000000.0
+Tunjangan: 1000000.0
+
+3. Output Polimorfisme:
+Nama Produk: Snack
+Harga: 15000.0
+Tahun Kadaluarsa: 2025-12-30
+
+Nama Pegawai: Andi
+Gaji: 3000000.0
+Lama Kontrak: 12 bulan
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  2.106 s
+Finished at: 2025-09-30T10:43:34+07:00
+------------------------------------------------------------------------
